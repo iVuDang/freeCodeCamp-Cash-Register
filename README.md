@@ -4,7 +4,7 @@
 https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/cash-register
 
 ## Preview:
-<img src="https://github.com/iVuDang/freeCodeCamp-Palindrome-Checker/blob/main/palindrome%20preview.png" width=100% height=100%>
+<img src="https://github.com/iVuDang/freeCodeCamp-Cash-Register/blob/main/cash%20preview.png" width=100% height=100%>
 
 ## Technologies: 
 * HTML
