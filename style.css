@@ -1,0 +1,89 @@
+/* START BODY */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
+
+body {
+  font-family: 'nunito';
+  color: white;
+  background-color: black;
+}
+
+#titleDiv h1{
+  font-size: 40px; 
+  color: MistyRose;
+  
+  position: absolute;
+  top: 80px;
+  left: 140px;
+}
+
+#titleDiv p{
+  font-size: 60px;
+  color: white;
+  
+  position: absolute;
+  top: 360px;
+  left: 120px;
+  
+  border-bottom: 1px solid MistyRose; 
+  padding-bottom: 3px;
+  border-bottom-width: 1px; 
+  
+  word-spacing: 2px;
+  letter-spacing: 5px;
+}
+
+/* END BODY */ 
+
+
+/* START BUTTON */
+#clickButt {
+  position: absolute;
+  top: 550px; 
+  left: 120px; 
+  
+  height: 157px;
+  width: 369px;
+  border-radius: 5px;
+  
+  background-color: MediumAquaMarine;
+  font-size: 75px;
+}
+
+#clickButt:hover {
+  -webkit-box-shadow: 0 0 10px 1px green inset;          /*box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
+  background-color: MediumAquaMarine;
+  -webkit-transition-duration:0.2s;
+  transform: scale(1.1);
+}
+/* END BUTTON */
+
+
+/* START OUTPUT */
+#result{
+  position: absolute;
+  top: 500px; 
+  left: 550px; 
+  
+  font-size: 45px;
+}
+/* END OUTPUT */
+
+
+/* START PICTURES */
+#pandaDiv{
+  position: absolute;
+  top: 110px; 
+  left: 550px; 
+}
+
+#watermelonDiv{
+  position: absolute;
+  top: 100px; 
+  left: 135px; 
+}
+  
+#watermelon{
+ width: 325px;
+}
+
+/* END PICTURES */

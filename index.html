@@ -1,0 +1,42 @@
+
+<div id="titleDiv">
+    <h1> Feed the Panda?</h1>
+    <p> $2 per slice </p>
+  </div>
+  
+  
+  <!-- HTML INPUT -->
+    <div class="buttonDiv">
+      <input id="clickButt" type="button" onclick="Message1()" value="$5">
+    </div>
+    <p id = "result"> </p>
+  
+  
+  <!-- SCRIPT FOR CONSOLE -->
+  <script>
+    let button = document.getElementById("clickButt");    
+    
+    button.addEventListener("click", () => {
+      console.log(checkCashRegister(2, 5, [["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]));
+    });
+  </script>
+    
+  
+  <!-- SCRIPT FOR MESSAGE -->
+  <script>
+  function Message1(){
+    document.getElementById('result').innerHTML = 'Thank you! <br> Here is your change: $3';}
+  </script>
+  
+  
+  
+  <!-- IMAGES -->
+      <div id="watermelonDiv">
+        <img src="https://i.imgur.com/QbsCMks.png" id="watermelon" alt="watermelon" />
+      </div>
+  
+      <div id="pandaDiv">
+        <img src="https://i.imgur.com/sPghGHF.gif" id="panda" alt="panda" />
+      </div>
+  
+  
